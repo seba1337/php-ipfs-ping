@@ -44,7 +44,8 @@ $tx = "/plaintext/1.0.0\n";
 echo "Tx: " . $tx;
 fwrite($fp, gm($tx));
 
-//we receive back the same thing
+//we receive back the same thing, or na\n 
+//if we haven't started IPFS with ipfs --disable-transport-encryption
 echo "Rx: " . rm();
 
 
