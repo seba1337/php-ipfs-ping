@@ -1,0 +1,48 @@
+$ php ping.php
+Rx: /multistream/1.0.0
+Tx: /multistream/1.0.0
+Tx: /plaintext/1.0.0
+Rx: /plaintext/1.0.0
+Tx: /multistream/1.0.0
+Rx: /multistream/1.0.0
+Tx: /mplex/6.7.0
+Rx: /mplex/6.7.0
+
+Multiplex data [id,flag]:
+Rx[0,0]: 0
+Rx[1,0]: 1
+Rx[0,2]: /multistream/1.0.0
+Rx[2,0]: 2
+Rx[1,2]: /multistream/1.0.0
+Rx[2,2]: /multistream/1.0.0
+Tx[3,0]: 3
+Rx[3,1]: /multistream/1.0.0
+Tx[3,2]: /multistream/1.0.0
+Tx[3,2]: /ipfs/ping/1.0.0
+Rx[3,1]: /ipfs/ping/1.0.0
+Tx[3,2]: 02309279026073226899740122080532
+Rx[3,1]: 02309279026073226899740122080532
+Ping took 3.74 ms
+Ping data matches
+
+Tx[3,2]: 08627997923097223123863096076608
+Rx[3,1]: 08627997923097223123863096076608
+Ping took 3.93 ms
+Ping data matches
+
+Tx[3,2]: 04701609523620854977840836913511
+Rx[3,1]: 04701609523620854977840836913511
+Ping took 4.77 ms
+Ping data matches
+
+Tx[3,2]: 09921530164784548525366103016538
+Rx[3,1]: 09921530164784548525366103016538
+Ping took 4.04 ms
+Ping data matches
+
+Tx[3,2]: 05317847002896445961337431557196
+Rx[3,1]: 05317847002896445961337431557196
+Ping took 3.48 ms
+Ping data matches
+
+Average ping took 3.99 ms
